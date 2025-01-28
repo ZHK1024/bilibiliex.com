@@ -26,10 +26,6 @@
         {
             "source": "/(.*)",
             "destination": "public/$1"
-        },
-        {
-            "source": "/(tag|archives|home|public|static|source|js|room)/:path*",
-            "destination": "public/404.html"
         }
     ],
     "headers": [
