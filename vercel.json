@@ -11,22 +11,7 @@
         }
     ],
     "rewrites": [
-        {
-            "source": "/video/(.*)",
-            "destination": "/"
-        },
-        {
-            "source": "/api/bcover/(.*)",
-            "destination": "app.js"
-        },
-        {
-            "source": "/api/feedback/(.*)",
-            "destination": "app.js"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "public/$1"
-        }
+        
     ],
     "headers": [
         {
