@@ -24,6 +24,10 @@
             "destination": "app.js"
         },
         {
+            "source": "/:path*",
+            "destination": "/"
+        },
+        {
             "source": "/(.*)",
             "destination": "public/$1"
         }
