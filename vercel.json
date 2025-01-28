@@ -32,7 +32,7 @@
             "dest": "/public/static/$1"
         },
         {
-            "src": "/verify/(.*)",
+            "src": "/(.*)",
             "dest": "/verify/$1"
         }
     ]
