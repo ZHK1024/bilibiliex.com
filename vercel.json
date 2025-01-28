@@ -24,8 +24,8 @@
             "destination": "app.js"
         },
         {
-            "source": "/:path",
-            "destination": "/public/:path"
+            "source": "/:path*",
+            "destination": "/public/:path*"
         }
     ],
     "headers": [
