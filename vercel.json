@@ -22,14 +22,6 @@
         {
             "source": "/api/feedback/(.*)",
             "destination": "app.js"
-        },
-        {
-            "source": "/:path*",
-            "destination": "/"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/$1"
         }
     ],
     "headers": [
