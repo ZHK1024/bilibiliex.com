@@ -8,10 +8,6 @@
         {
             "src": "public/**/*.{js,html,css,png,jpg,svg,json}",
             "use": "@vercel/static"
-        },
-        {
-            "src": "verify/**/*.{js,html,css,png,jpg,svg,json}",
-            "use": "@vercel/static"
         }
     ],
     "routes": [
@@ -30,10 +26,6 @@
         {
             "src": "/static/(.*)",
             "dest": "/public/static/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/verify/$1"
         }
     ]
 }
