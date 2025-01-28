@@ -16,6 +16,10 @@
             "dest": "/app.js"
         },
         {
+            "src": "/video/(.*)",
+            "dest": "/public/"
+        },
+        {
             "src": "/(.*)",
             "dest": "/public/$1"
         },
