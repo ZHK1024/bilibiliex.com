@@ -22,6 +22,10 @@
         {
             "source": "/api/feedback/(.*)",
             "destination": "app.js"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "public/$1"
         }
     ],
     "headers": [
