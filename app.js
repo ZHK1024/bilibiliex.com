@@ -27,6 +27,9 @@ app.get('/video/:id*', (req, res) => {
   if (query) {
     query = `&${query}`;
   }
+  // bvs = bilibili video source
+  // bvs = 1 表示是服务器重定向, 需要冲服务器获取封面信息
+  // 308 永久重定向
   res.redirect(308, `/?vid=${id}${query}&bvs=1`);
 });
 
