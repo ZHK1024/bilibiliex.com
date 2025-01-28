@@ -4,10 +4,6 @@
         {
             "src": "app.js",
             "use": "@vercel/node"
-        },
-        {
-            "src": "public/**/*.{js,html,css,png,jpg,svg}",
-            "use": "@vercel/static"
         }
     ],
     "rewrites": [
