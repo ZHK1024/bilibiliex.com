@@ -14,10 +14,12 @@
         {
             "source": "/api/(.*)",
             "destination": "/app.js"
-        },
+        }
+    ],
+    "staticFiles": [
         {
-            "source": "/(.*)",
-            "destination": "/public/$1"
+            "source": "public/**",
+            "destination": "/"
         }
     ]
 }
