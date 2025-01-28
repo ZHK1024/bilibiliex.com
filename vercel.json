@@ -11,10 +11,17 @@
         }
     ],
     "rewrites": [
-
         {
-            "source": "/(.*)",
-            "destination": "/$1"
+            "source": "/video/(.*)",
+            "destination": "/"
+        },
+        {
+            "source": "/api/bcover/(.*)",
+            "destination": "app.js"
+        },
+        {
+            "source": "/api/feedback/(.*)",
+            "destination": "app.js"
         }
     ],
     "headers": [
