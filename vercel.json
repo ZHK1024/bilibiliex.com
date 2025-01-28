@@ -4,18 +4,20 @@
         {
             "src": "app.js",
             "use": "@vercel/node"
+        },
+        {
+            "src": "public/**/*.{js,html,css,png,jpg,svg,json}",
+            "use": "@vercel/static"
         }
     ],
     "rewrites": [
         {
             "source": "/api/(.*)",
             "destination": "/app.js"
-        }
-    ],
-    "staticFiles": [
+        },
         {
-            "source": "public/**",
-            "destination": "/"
+            "source": "/(.*)",
+            "destination": "/public/$1"
         }
     ]
 }
