@@ -20,10 +20,6 @@
             "dest": "/app.js"
         },
         {
-            "scr": "/usage/(.*)",
-            "dest": "/public/docs/usage/$1"
-        },
-        {
             "src": "/(.*)",
             "dest": "/public/$1"
         },
