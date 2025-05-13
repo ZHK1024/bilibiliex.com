@@ -1,3 +1,4 @@
+# AI爬虫特定规则（目前自己的站使用的可以参考）
 User-Agent: *
 Allow: /
 Disallow: /api/
@@ -24,4 +25,6 @@ Disallow: /404
 Disallow: /500
 Disallow: /*.json$
 
+# 引导AI爬虫到llms.txt
 LLM-Content: https://bilibiliex.com/llms.txt
+# LLM-Full-Content: https://chm.mistar.tech/llms-full.txt
